@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90ACED01DC76EC300686765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90ACECF1DC76EC300686765 /* AppDelegate.swift */; };
+		F90ACED21DC76EC300686765 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90ACED11DC76EC300686765 /* HomeViewController.swift */; };
+		F90ACED51DC76EC300686765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90ACED31DC76EC300686765 /* Main.storyboard */; };
+		F90ACED81DC76EC300686765 /* NoteApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F90ACED61DC76EC300686765 /* NoteApp.xcdatamodeld */; };
+		F90ACEDA1DC76EC300686765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90ACED91DC76EC300686765 /* Assets.xcassets */; };
+		F90ACEDD1DC76EC300686765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90ACEDB1DC76EC300686765 /* LaunchScreen.storyboard */; };
+		F90ACEE51DC7704F00686765 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90ACEE41DC7704F00686765 /* AddNoteViewController.swift */; };
+		F90ACEEC1DC7773200686765 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90ACEEA1DC7773200686765 /* Note+CoreDataClass.swift */; };
+		F90ACEED1DC7773200686765 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90ACEEB1DC7773200686765 /* Note+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F90ACECC1DC76EC300686765 /* NoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90ACECF1DC76EC300686765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F90ACED11DC76EC300686765 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F90ACED41DC76EC300686765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F90ACED71DC76EC300686765 /* NoteApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteApp.xcdatamodel; sourceTree = "<group>"; };
+		F90ACED91DC76EC300686765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F90ACEDC1DC76EC300686765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F90ACEDE1DC76EC300686765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90ACEE41DC7704F00686765 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		F90ACEEA1DC7773200686765 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "../Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F90ACEEB1DC7773200686765 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90ACEC91DC76EC300686765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90ACEC31DC76EC300686765 = {
+			isa = PBXGroup;
+			children = (
+				F90ACECE1DC76EC300686765 /* NoteApp */,
+				F90ACECD1DC76EC300686765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90ACECD1DC76EC300686765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90ACECC1DC76EC300686765 /* NoteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90ACECE1DC76EC300686765 /* NoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				F90ACECF1DC76EC300686765 /* AppDelegate.swift */,
+				F90ACED11DC76EC300686765 /* HomeViewController.swift */,
+				F90ACEE41DC7704F00686765 /* AddNoteViewController.swift */,
+				F90ACED31DC76EC300686765 /* Main.storyboard */,
+				F90ACED91DC76EC300686765 /* Assets.xcassets */,
+				F90ACEDB1DC76EC300686765 /* LaunchScreen.storyboard */,
+				F90ACEDE1DC76EC300686765 /* Info.plist */,
+				F90ACED61DC76EC300686765 /* NoteApp.xcdatamodeld */,
+				F90ACEEA1DC7773200686765 /* Note+CoreDataClass.swift */,
+				F90ACEEB1DC7773200686765 /* Note+CoreDataProperties.swift */,
+			);
+			path = NoteApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90ACECB1DC76EC300686765 /* NoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90ACEE11DC76EC300686765 /* Build configuration list for PBXNativeTarget "NoteApp" */;
+			buildPhases = (
+				F90ACEC81DC76EC300686765 /* Sources */,
+				F90ACEC91DC76EC300686765 /* Frameworks */,
+				F90ACECA1DC76EC300686765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteApp;
+			productName = NoteApp;
+			productReference = F90ACECC1DC76EC300686765 /* NoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90ACEC41DC76EC300686765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ashok;
+				TargetAttributes = {
+					F90ACECB1DC76EC300686765 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F90ACEC71DC76EC300686765 /* Build configuration list for PBXProject "NoteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F90ACEC31DC76EC300686765;
+			productRefGroup = F90ACECD1DC76EC300686765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90ACECB1DC76EC300686765 /* NoteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90ACECA1DC76EC300686765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90ACEDD1DC76EC300686765 /* LaunchScreen.storyboard in Resources */,
+				F90ACEDA1DC76EC300686765 /* Assets.xcassets in Resources */,
+				F90ACED51DC76EC300686765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90ACEC81DC76EC300686765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90ACEE51DC7704F00686765 /* AddNoteViewController.swift in Sources */,
+				F90ACED81DC76EC300686765 /* NoteApp.xcdatamodeld in Sources */,
+				F90ACEEC1DC7773200686765 /* Note+CoreDataClass.swift in Sources */,
+				F90ACED21DC76EC300686765 /* HomeViewController.swift in Sources */,
+				F90ACED01DC76EC300686765 /* AppDelegate.swift in Sources */,
+				F90ACEED1DC7773200686765 /* Note+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F90ACED31DC76EC300686765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90ACED41DC76EC300686765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F90ACEDB1DC76EC300686765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90ACEDC1DC76EC300686765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F90ACEDF1DC76EC300686765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F90ACEE01DC76EC300686765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90ACEE21DC76EC300686765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InspireME.NoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F90ACEE31DC76EC300686765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InspireME.NoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90ACEC71DC76EC300686765 /* Build configuration list for PBXProject "NoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90ACEDF1DC76EC300686765 /* Debug */,
+				F90ACEE01DC76EC300686765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90ACEE11DC76EC300686765 /* Build configuration list for PBXNativeTarget "NoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90ACEE21DC76EC300686765 /* Debug */,
+				F90ACEE31DC76EC300686765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F90ACED61DC76EC300686765 /* NoteApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F90ACED71DC76EC300686765 /* NoteApp.xcdatamodel */,
+			);
+			currentVersion = F90ACED71DC76EC300686765 /* NoteApp.xcdatamodel */;
+			path = NoteApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F90ACEC41DC76EC300686765 /* Project object */;
+}
